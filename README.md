@@ -87,7 +87,6 @@ El proyecto está estructurado de la siguiente manera:
 
 Cuando ya esté instalado, abre una terminal y navega al directorio del proyecto. Luego, crea un entorno virtual con el siguiente comando:
 
-    ```bash
     python -m venv "Nombre del entorno virtual sin las comillas"
    
 
