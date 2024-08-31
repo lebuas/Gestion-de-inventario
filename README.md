@@ -31,10 +31,10 @@ Para ejecutar este programa, primero clonamos el repositorio usando git. Hay que
 
 4. **Crear el Entorno Virtual**
 
-Hay que tener instalado venv, que es un entorno virtual para trabajar con python, si no lo tine, intalarlo con el siguiente comando.
+Hay que tener instalado venv, que es un entorno virtual para trabajar con python, si no lo tine, intalarlo con el siguiente comando, para wsl(windows), debian, ubuntu, mint:
 
   ```bash
-   pip install venv
+   sudo apt install python3-venv
   ```
 
 
