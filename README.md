@@ -1,7 +1,7 @@
 # Sistema de Gestión de Inventario: Leymar Buenaventura
 
 ## Diagrama uml
-![diagramaUml](src/static/uml.png )
+![diagramaUml](src/static/uml.png)
 
 
 ## Descripción
