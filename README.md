@@ -48,7 +48,7 @@ Hay que tener instalado venv, que es un entorno virtual para trabajar con python
   ```bash
   nombre_del_entorno\Scripts\activate
   ```
-Una vez este activado el entorno virtual, se instalan los requerimienotos para correr el programa.
+Una vez este activado el entorno virtual, se instalan los requerimienotos para correr el programa: En este momento no es necesario instalar requirements.
     ```bash
      pip install -r requirements.txt
     ```
