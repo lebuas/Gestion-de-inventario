@@ -85,11 +85,10 @@ El proyecto está estructurado de la siguiente manera:
 
 1. **Crear el Entorno Virtual**
 
-Tiene que tener instalado venv, que es un entorno virtual para trabajar con python, si no lo tine:
+   Asegúrate de tener instalado `venv`, que es un módulo para crear entornos virtuales en Python. Si no lo tienes:
 
-    ```bash
-     pip install virtualenv
-    ```bash
+   ```bash
+   pip install virtualenv
 
 Caudno ya este instalado, abra una terminal y navega al directorio del proyecto. Luego, crea un entorno virtual con el siguiente comando:
 
