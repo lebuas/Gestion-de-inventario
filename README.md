@@ -89,7 +89,7 @@ Cuando ya esté instalado, abre una terminal y navega al directorio del proyecto
 
     ```bash
     python -m venv "Nombre del entorno virtual sin las comillas"
-    ```
+   
 
 Cuando hayas creado el entorno virtual, debes activarlo para instalar los requerimientos. Busca el entorno virtual y actívalo:
 
