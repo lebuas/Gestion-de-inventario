@@ -85,7 +85,7 @@ El proyecto está estructurado de la siguiente manera:
 
 1. **Crear el Entorno Virtual**
 
- Cuando ya esté instalado, abre una terminal y navega al directorio del proyecto. Luego, crea un entorno virtual con el siguiente comando:
+Cuando ya esté instalado, abre una terminal y navega al directorio del proyecto. Luego, crea un entorno virtual con el siguiente comando:
 
     ```bash
     python -m venv "Nombre_del_entorno_virtual_sin_las_comillas"
@@ -95,13 +95,14 @@ Cuando hayas creado el entorno virtual, debes activarlo para instalar los requer
 
    ```bash
    Nombre_del_entorno_virtual\Scripts\activate
-  
+   ```
 Una vez este activado el entonro virtual, se instalan los requerimienotos para correr el programa
      ```bash
      pip install -r requirements.txt
-    
-Cuand se hayan indtalado los requerimienos, ya podemos iniciar el programa. vamos a la carpeta src y abrimos el archivo main.py con cualquier editor y lo ejecutamos o des la terminal, buscamos le archiv main.py en la carpeta src y udamoa el comando:
+     ```
+Cuando se hayan indtalado los requerimienos, ya podemos iniciar el programa. vamos a la carpeta src y abrimos el archivo main.py con cualquier editor y lo ejecutamos o des la terminal, 
+buscamos le archiv main.py en la carpeta src y udamoa el comando:
      ```bash
      python main.py
-    
+     ```
 
