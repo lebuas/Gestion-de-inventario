@@ -85,21 +85,21 @@ El proyecto está estructurado de la siguiente manera:
 
 1. **Crear el Entorno Virtual**
 
-Tiene que tener instalado venv, que es un entorno virtual para trabajar con python, si no lo tine 
+Tiene que tener instalado venv, que es un entorno virtual para trabajar con python, si no lo tine:
 
     ```bash
-    pip install virtualenv
+     pip install virtualenv
     ```bash
 
 Caudno ya este instalado, abra una terminal y navega al directorio del proyecto. Luego, crea un entorno virtual con el siguiente comando:
 
    ```bash
-   python -m venv "Nombre del entorno virtual sin las comillas"
+    python -m venv "Nombre del entorno virtual sin las comillas"
    ```bash
   
 Caundo cree el entorno virtual tiene que activarlo par intalar los requerimintos. Buscar en entorno virtual y activarlo
   ```bash
-  nombre_del_entorno\Scripts\activate
+   nombre_del_entorno\Scripts\activate
   ```bash
 Una vez este activado el entonro virtual, se instalan los requerimienotos para correr el programa
     ```bash
@@ -107,6 +107,6 @@ Una vez este activado el entonro virtual, se instalan los requerimienotos para c
     ```bash
 Cuand se hayan indtalado los requerimienos, ya podemos iniciar el programa. vamos a la carpeta src y abrimos el archivo main.py con cualquier editor y lo ejecutamos o des la terminal, buscamos le archiv main.py en la carpeta src y udamoa el comando:
     ```bash
-   python main.py
+     python main.py
     ```bash
 
