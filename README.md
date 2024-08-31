@@ -27,7 +27,7 @@ El proyecto está estructurado de la siguiente manera:
    
 Para ejecutar este programa, primero clonamos el repositorio usando git. Hay que tener git instalado y luego ejecutar este comando en la ruta donde queramos clonar el proeycto.
    ```bash
-   git clone "link del repositorio sin la comillas"
+   git clone "link de este repositorio sin la comillas"
    ```
 
 4. **Crear el Entorno Virtual**
