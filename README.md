@@ -1,7 +1,7 @@
 # Sistema de Gestión de Inventario: Leymar Buenaventura
 
 ## Diagrama uml
-![uml](https://github.com/user-attachments/assets/0cfef514-e83e-44c9-9cce-61f548f5b36d)
+![diagramaUml](src/static/diagramaUml.png)
 
 
 ## Descripción
@@ -14,7 +14,7 @@ El proyecto está estructurado de la siguiente manera:
    - **`database/`**: Contiene el archivo `datos.json` que almacena los datos del inventario.
    - **`main.py`**: Inicializa el paquete.
    - **`models/`**: Contiene los módulos que implementan la lógica del sistema:
-  - **`cargarDatos.py`**: Módulo para cargar y guardar datos desde/hacia `datos.json`.
+  - **`cargarDatos.py`**: Módulo para cargar y guardar datos desde/hacia `da os.json`.
   - **`Consultas.py`**: Módulo para realizar consultas sobre productos, categorías, proveedores, y bodegas.
   - **`ProductosStock.py`**: Módulo para gestionar el stock de productos.
   - **`Registros.py`**: Módulo para registrar productos, categorías, proveedores, y bodegas.
