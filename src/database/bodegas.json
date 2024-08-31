@@ -1,0 +1,30 @@
+{
+    "bodegas": [
+        {
+            "nombre": "Bodega A",
+            "ubicacion": "Ubicaci\u00f3n de la Bodega A",
+            "capacidad_maxima": 1000,
+            "productos_almacenados": [
+                {
+                    "nombre": "nombre2",
+                    "cantidad": 100
+                },
+                {
+                    "nombre": "nombre1",
+                    "cantidad": 50
+                }
+            ]
+        },
+        {
+            "nombre_bodega": "kajsd",
+            "ubicacion": "kladf",
+            "capacidad_maxima": 23423,
+            "productos_almacenado": [
+                {
+                    "nombre": "lksadj",
+                    "cantidad": 32
+                }
+            ]
+        }
+    ]
+}

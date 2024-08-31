@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Sistema de Gestión de Inventario: Leymar Buenaventura
 
 ## Diagrama uml

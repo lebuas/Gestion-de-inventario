@@ -1,0 +1,32 @@
+{
+    "productos": [
+        {
+            "nombre": "Producto B",
+            "descripcion": "Descripci\u00f3n del Producto B",
+            "precio": 29.99,
+            "stock": 200,
+            "categoria_id": 2
+        },
+        {
+            "nombre": "safds",
+            "descripcion": "asdf",
+            "precio": 343.0,
+            "stock": 343,
+            "categoria": "sdfs"
+        },
+        {
+            "nombre": "ksak",
+            "descripcion": "lkasjdf",
+            "precio": 4334.0,
+            "stock": 34534,
+            "categoria": "cakdsa"
+        },
+        {
+            "nombre": "kkajsd",
+            "descripcion": "kasdk",
+            "precio": 4345.0,
+            "stock": 35435,
+            "categoria": "jsjdf"
+        }
+    ]
+}
