@@ -34,7 +34,7 @@ Para ejecutar este programa, primero clonamos el repositorio usando git. Hay que
 Hay que tener instalado venv, que es un entorno virtual para trabajar con python, si no lo tine, intalarlo con el siguiente comando.
 
   ```bash
-   pip install virtualenv
+   pip install venv
   ```
 
 
