@@ -51,7 +51,7 @@ Hay que tener instalado venv, que es un entorno virtual para trabajar con python
 Una vez este activado el entorno virtual, se instalan los requerimienotos para correr el programa.
   ```bash
      pip install -r requirements.txt
-```
+    ```
 Cuand se hayan instalado los requerimienos, ya podemos iniciar el programa. vamos a la carpeta src y abrimos el archivo main.py con cualquier editor y lo ejecutamos o des la terminal, buscamos le archiv main.py en la carpeta src y udamoa el comando:
  ```bash
    python main.py
@@ -90,7 +90,6 @@ El proyecto está estructurado de la siguiente manera:
    pip install virtualenv
 
 
-
   Caudno ya este instalado, abra una terminal y navega al directorio del proyecto. Luego, crea un entorno virtual con el siguiente comando:
 
    ```bash
@@ -109,4 +108,4 @@ Cuand se hayan indtalado los requerimienos, ya podemos iniciar el programa. vamo
  ```bash
    python main.py
 
->>>>>>> a184616 (git fetch)
+
