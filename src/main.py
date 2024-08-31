@@ -53,33 +53,33 @@ class MenuRegistro:
         if guardar:
             print("Producto agregado")
 
-
-class MenuStock:
-    def agregar_stock(self):
-        nombre = input("Ingrese nombre del producto: ")
-        cantida = input("Ingrese cantidad a agregar")
-
-        base_datos = dataBase.DataBase(False, "stock.json", stock)
-        if nombre in base_datos:
-            agregar = stock.Stock()
-            agregar.agregar_stock(nombre, cantida)
-        else:
-            print("Ese producto no se encuentra regisrado")
-
-    def retirar_stock(self):
-
-        nombre = input("Ingrese nombre del producto: ")
-        cantida = input("Ingrese cantidad a agregar")
-
-        base_datos = dataBase.DataBase(False, "stock.json", stock)
-        if nombre in base_datos:
-            retirar = stock.Stock()
-            retirar.retirar__stock(base_datos, nombre, cantida)
-        else:
-            print("Ese producto no se encuentra regisrado")
-
-    def total_stock(self):
-        pass
+#
+# class MenuStock:
+#     def agregar_stock(self):
+#         nombre = input("Ingrese nombre del producto: ")
+#         cantida = input("Ingrese cantidad a agregar")
+#
+#         base_datos = dataBase.DataBase(False, "producto.json", stock)
+#         if nombre in base_datos:
+#             agregar = stock.Stock()
+#             agregar.agregar_stock(nombre, cantida)
+#         else:
+#             print("Ese producto no se encuentra regisrado")
+#
+#     def retirar_stock(self):
+#
+#         nombre = input("Ingrese nombre del producto: ")
+#         cantida = input("Ingrese cantidad a agregar")
+#
+#         base_datos = dataBase.DataBase(False, "stock.json", stock)
+#         if nombre in base_datos:
+#             retirar = stock.Stock()
+#             retirar.retirar__stock(base_datos, nombre, cantida)
+#         else:
+#             print("Ese producto no se encuentra regisrado")
+#
+#     def total_stock(self):
+#         pass
 
 
 agregar = MenuRegistro()

@@ -13,9 +13,7 @@ class Stock:
             print("se agrego el stock")
 
     def retirar_productos(self, base_datos, producto, cantidad):
-        if base_datos[producto] >= cantidad:
-            continue
-        else:
+        pass
 
     def calcular_total_stock(self):
         pass

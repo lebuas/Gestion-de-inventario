@@ -25,6 +25,17 @@
                     "cantidad": 32
                 }
             ]
+        },
+        {
+            "nombre_bodega": "lkjasjkfd",
+            "ubicacion": "lkjadsj",
+            "capacidad_maxima": 543,
+            "productos_almacenado": [
+                {
+                    "nombre": "lkasdjklf",
+                    "cantidad": 4343
+                }
+            ]
         }
     ]
 }

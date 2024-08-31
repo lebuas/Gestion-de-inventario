@@ -16,10 +16,7 @@ class DataBase:
 
         self.base_datos = datos
 
-        if self.objecto:
-            self.agregar_objeto()
-        else:
-            return self.base_datos
+        self.agregar_objeto()
 
     def agregar_objeto(self):
         if self.modelo in self.base_datos:
@@ -32,7 +29,12 @@ class DataBase:
         # Guardar los datos actualizados en el archivo JSON
         self.guardar_datos()
 
-    def cargar_archivo(self):
+    def guardar_datos(self):
+        # Guardar los datos actualizados en el archivo JSON
+        with open(self.archivo_json, 'w') as file:
+            json.dump(self.base_datos, file, indent=4)
+
+    def get_productos(self):
         pass
 
     def get_categorias(self):
