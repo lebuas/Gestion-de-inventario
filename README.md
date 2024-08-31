@@ -72,13 +72,13 @@ Cuando se hayan instalado los requerimienos, ya podemos iniciar el programa. vam
 El proyecto está estructurado de la siguiente manera:
 
    - **`database/`**: Contiene el archivo `datos.json` que almacena los datos del inventario.
-   - **`__init__.py`**: Inicializa el paquete.
+   - **`main.py`**: Inicializa el paquete.
    - **`models/`**: Contiene los módulos que implementan la lógica del sistema:
-  - **`cargarDatos.py`**: Módulo para cargar y guardar datos desde/hacia `datos.json`.
-  - **`Consultas.py`**: Módulo para realizar consultas sobre productos, categorías, proveedores, y bodegas.
-  - **`ProductosStock.py`**: Módulo para gestionar el stock de productos.
-  - **`Registros.py`**: Módulo para registrar productos, categorías, proveedores, y bodegas.
-  - **`RelacionesEntidades.py`**: Módulo para manejar las relaciones entre productos, categorías, proveedores, y bodegas.
+  - **`dataBase.py`**: Módulo para cargar y guardar datos desde/hacia `datos.json`.
+  - **`consultas.py`**: Módulo para realizar consultas sobre productos, categorías, proveedores, y bodegas.
+  - **`stock.py`**: Módulo para gestionar el stock de productos.
+  - **`registros.py`**: Módulo para registrar productos, categorías, proveedores, y bodegas.
+  - **`gestion.py`**: Módulo para manejar las relaciones entre productos, categorías, proveedores, y bodegas.
 - **`requirements.txt`**: Contiene las dependencias necesarias para el proyecto.
 
 ## Cómo Iniciar el Programa
