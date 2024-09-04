@@ -1,6 +1,6 @@
 
 {
-    "productos": {
+    
         "Producto A": {
             "descripcion": "Descripción del Producto B",
             "precio": 29.99,
@@ -19,6 +19,6 @@
             "stock": 34534,
             "categoria": "cakdsa"
         }
-    }
+    
 }
 

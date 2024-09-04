@@ -2,53 +2,48 @@ from models import bd
 
 
 class Producto:
-
     def __init__(self):
-        # (name archivo json con los datos, clave de la estructura json)
-        self.datos = bd.ControlDatos("productos.json", "productos")
+        self.datos = bd.ControlDatos("productos.json")
         self.productos = self.datos.cargar_datos()
 
-    def registrar_productos(self, name, descripcion, precio, stock, categoria):
-        if name not in self.productos["productos"]:
+    def registrar_producto(self, nombre, descripcion, precio, stock, categoria):
+        if nombre not in self.productos:
             producto = {
                 "descripcion": descripcion,
                 "precio": precio,
                 "stock": stock,
                 "categoria": categoria
             }
-            self.productos["productos"][name] = producto
+            self.productos[nombre] = producto
             self.datos.actualizar_datos(self.productos)
             return True
         return False
 
-    def agrega_stock(self, producto, nuevo_stock):
-        if producto in self.productos["productos"]:
-            self.productos["productos"][producto]["stock"] += nuevo_stock
+    def agrega_stock(self, nombre, nuevo_stock):
+        if nombre in self.productos:
+            self.productos[nombre]["stock"] += nuevo_stock
             self.datos.actualizar_datos(self.productos)
             return True
         return False
 
-    def retirar_stock(self, producto, stock_a_retirar):
-        productos_actuales = self.productos["productos"]
-        if producto in productos_actuales and productos_actuales[
-                producto]["stock"] >= stock_a_retirar:
+    def retirar_stock(self, nombre, stock_a_retirar):
+        if nombre in self.productos and self.productos[nombre][
+                "stock"] >= stock_a_retirar:
 
-            self.productos["productos"][producto]["stock"] -= stock_a_retirar
+            self.productos[nombre]["stock"] -= stock_a_retirar
             self.datos.actualizar_datos(self.productos)
             return True
         return False
 
     def calcular_total_stock(self):
         total_stock = 0.0
-
-        for producto in self.productos["productos"].values():
+        for producto in self.productos.values():
             precio = producto["precio"]
             stock = producto["stock"]
             total_stock += precio * stock
         return total_stock
 
-    def consulta_producto(self, producto):
-        lista_productos = self.productos["productos"]
-        if producto in lista_productos:
-            return lista_productos[producto]
+    def consulta_producto(self, nombre):
+        if nombre in self.productos:
+            return self.productos[nombre]
         return None

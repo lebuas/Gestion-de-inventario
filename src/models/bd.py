@@ -3,8 +3,7 @@ import os
 
 
 class ControlDatos:
-    def __init__(self, name_archivo_json, clave):
-        self.name_clave_datos_json = clave
+    def __init__(self, name_archivo_json):
         self.path_archivo_json = os.path.join('database', name_archivo_json)
         self.diccionario_datos = {}
 

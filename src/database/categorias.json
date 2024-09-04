@@ -1,10 +1,10 @@
 
-{
-    "categorias": [
-        {
-            "nombre": "Categoría 1",
-            "descripcion": "Descripción de la Categoría 1"
-        }
-    ]
+{   
+  "categoria 1":
+   {
+      "descripcion":"placas madre asus"
+      "productos": ["b456","b567"]
+   }
+    
 }
 
