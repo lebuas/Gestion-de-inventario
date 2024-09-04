@@ -6,11 +6,11 @@ class Categoria:
         self.datos = bd.ControlDatos("categorias.json")
         self.categorias = self.datos.cargar_datos()
 
-    def registrar_categoria(self, nombre, descripcion, productos: list):
+    def registrar_categoria(self, nombre, descripcion):
         if nombre not in self.categorias:
             categoria = {
                 "descripcion": descripcion,
-                "productos": productos
+                "productos": []
             }
             self.categorias[nombre] = categoria
             self.datos.actualizar_datos(self.categorias)

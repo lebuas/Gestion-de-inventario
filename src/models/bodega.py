@@ -1,31 +1,59 @@
-from models import dataBase
+from models import bd
 
 
 class Bodega:
     def __init__(self):
-        self.bodega = {}
+        self.datos = bd.ControlDatos("bodegas.json")
+        self.bodegas = self.datos.cargar_datos()
 
-    def registrar_bodega(self, nombre, ubicacion, capacidad, producto, cantidad):
-        bodega = {
-            "nombre_bodega": nombre,
-            "ubicacion": ubicacion,
-            "capacidad_maxima": capacidad,
-            "productos_almacenado": [{
-                "nombre": producto[0],
+    def registrar_bodega(self, nombre, ubicacion, capacidad):
+        if nombre not in self.bodegas:
+            bodega = {
+                "ubicacion": ubicacion,
+                "capacidad_maxima": capacidad,
+                "productos_almacenados": []
+            }
+            self.bodegas[nombre] = bodega
+            self.datos.actualizar_datos(self.bodegas)
+            return True
+        return False
+
+    def agregar_producto(self, nombre_bodega, producto, cantidad):
+        if nombre_bodega in self.bodegas:
+            productos = self.bodegas[nombre_bodega]["productos_almacenados"]
+            for item in productos:
+                if item["nombre"] == producto:
+                    item["cantidad"] += cantidad
+                    self.datos.actualizar_datos(self.bodegas)
+                    return True
+            productos.append({
+                "nombre": producto,
                 "cantidad": cantidad
-            }]
-        }
+            })
+            self.datos.actualizar_datos(self.bodegas)
+            return True
+        return False
 
-        return bodega
+    def retirar_producto(self, nombre_bodega, producto, cantidad):
+        if nombre_bodega in self.bodegas:
+            productos = self.bodegas[nombre_bodega]["productos_almacenados"]
+            for item in productos:
+                if item["nombre"] == producto:
+                    if item["cantidad"] >= cantidad:
+                        item["cantidad"] -= cantidad
+                        if item["cantidad"] == 0:
+                            productos.remove(item)
+                        self.datos.actualizar_datos(self.bodegas)
+                        return True
+                    return False
+        return False
 
-    def agregar_productos(self):
-        pass
+    def disponibilidad(self, nombre_bodega):
+        if nombre_bodega in self.bodegas:
+            return self.bodegas[nombre_bodega]["productos_almacenados"]
+        return None
 
-    def retirar_productos(self):
-        pass
-
-    def disponibilidad(self):
-        pass
-
-    def consultar_bodegas(self):
-        pass
+    def consultar_bodega(self, nombre_bodega):
+        if nombre_bodega in self.bodegas:
+            return self.bodegas[nombre_bodega]
+        return None

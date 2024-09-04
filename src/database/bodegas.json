@@ -1,7 +1,6 @@
 
-[
-    {
-        "nombre": "Bodega A",
+{
+   "bodega A" : {
         "ubicacion": "Ubicación de la Bodega A",
         "capacidad_maxima": 1000,
         "productos_almacenados": [
@@ -15,27 +14,21 @@
             }
         ]
     },
-    {
-        "nombre": "kajsd",
-        "ubicacion": "kladf",
-        "capacidad_maxima": 23423,
+
+   "bodega A" : {
+        "ubicacion": "Ubicación de la Bodega A",
+        "capacidad_maxima": 1000,
         "productos_almacenados": [
             {
-                "nombre": "lksadj",
-                "cantidad": 32
-            }
-        ]
-    },
-    {
-        "nombre": "lkjasjkfd",
-        "ubicacion": "lkjadsj",
-        "capacidad_maxima": 543,
-        "productos_almacenados": [
+                "nombre": "nombre2",
+                "cantidad": 100
+            },
             {
-                "nombre": "lkasdjklf",
-                "cantidad": 4343
+                "nombre": "nombre1",
+                "cantidad": 50
             }
         ]
     }
-]
+
+}
 

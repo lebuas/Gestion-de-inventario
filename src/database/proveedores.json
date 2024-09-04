@@ -1,10 +1,9 @@
 {
-"proveedores": [
-        {
-            "nombre": "Proveedor A",
+
+      "Proveedor 1" : {
             "direccion": "Dirección del Proveedor A",
             "telefono": "123-456-7890",
-            "productos_suministrados": ["producto1", "producto2"]
+            "productos": ["producto1", "producto2"]
         }
-    ]
+    
 }
