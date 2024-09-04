@@ -1,0 +1,40 @@
+@startuml
+class Productos {
+  -productos
+  +registrar_productos(nombre, descripcion, precio, stock_init, categoria)
+  +agregar_stock(cantidad)
+  +retirar_stock(cantidad)
+  +calcular_total_stock()
+  +consultar_producto(nombre)
+}
+
+class Categoria {
+  -categorias
+  +registrar_categoria(nombre, descripcion)
+  +agregar_producto(nombre, ubicacion, telefono, productos)
+  +eliminar_producto(producto)
+  +consultar_categoria(nombre)
+}
+
+class Proveedor {
+  -proveedores
+  +registrar_proveedor(nombre, direccion, telefono, productos)
+  +agregar_producto(producto)
+  +eliminar_producto(producto)
+  +consultar_proveedor(nombre)
+}
+
+class Bodega {
+  -bodegas
+  +registrar_bodega(nombre, direccion, telefono, productos)
+  +agregar_productos(producto)
+  +retirar_producto(producto)
+  +disponibilidad()
+  +consultar_bodega(nombre)
+}
+
+Productos "1" o-- "0..*" Categoria : contiene
+Productos "1" ..> "0..*" Proveedor : usa
+Bodega "1" *-- "0..*" Productos : almacena
+Categoria "1" ..> "0..*" Proveedor : depende de
+@enduml
