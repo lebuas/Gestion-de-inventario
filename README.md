@@ -17,7 +17,7 @@ Para ejecutar este programa, primero clonamos el repositorio usando git. Hay que
 
 4.**Crear Entorno Virtual**
 
-Hay que tener instalado venv, que es un entorno virtual para trabajar con python, si no lo tiene, instalarlo con el siguiente comando, para wsl(windows), debían, ubuntu, mint:
+Hay que tener instalado venv, que es un entorno virtual para trabajar con python, si no lo tiene, instalarlo con el siguiente comando: Para wsl(windows), debían, ubuntu y mint:
 
   ```bash
    sudo apt install python3-venv
