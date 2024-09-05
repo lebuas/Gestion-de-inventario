@@ -18,7 +18,7 @@
         "categoria": "cakdsa"
     },
     "manzana": {
-        "descripcion": "manzan verde",
+        "descripcion": "manzan verde",4
         "precio": 2300.0,
         "stock": 3.0,
         "categoria": "frutas"
