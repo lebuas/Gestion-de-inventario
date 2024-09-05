@@ -6,7 +6,8 @@ class Producto:
         self.datos = bd.ControlDatos("productos.json")
         self.productos = self.datos.cargar_datos()
 
-    def registrar_producto(self, nombre, descripcion, precio, stock, categoria):
+    def registrar_producto(self, nombre, descripcion, precio, stock,
+                           categoria):
         if nombre not in self.productos:
             producto = {
                 "descripcion": descripcion,
