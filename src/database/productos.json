@@ -1,24 +1,32 @@
-
 {
-    
-        "Producto A": {
-            "descripcion": "Descripción del Producto B",
-            "precio": 29.99,
-            "stock": 200,
-            "categoria_id": 2
-        },
-        "Producto B": {
-            "descripcion": "asdf",
-            "precio": 343.0,
-            "stock": 343,
-            "categoria": "sdfs"
-        },
-        "Producto C": {
-            "descripcion": "lkasjdf",
-            "precio": 4334.0,
-            "stock": 34534,
-            "categoria": "cakdsa"
-        }
-    
+    "Producto A": {
+        "descripcion": "Descripci\u00f3n del Producto B",
+        "precio": 29.99,
+        "stock": 200,
+        "categoria_id": 2
+    },
+    "Producto B": {
+        "descripcion": "asdf",
+        "precio": 343.0,
+        "stock": 343,
+        "categoria": "sdfs"
+    },
+    "Producto C": {
+        "descripcion": "lkasjdf",
+        "precio": 4334.0,
+        "stock": 34534,
+        "categoria": "cakdsa"
+    },
+    "manzana": {
+        "descripcion": "manzan verde",
+        "precio": 2300.0,
+        "stock": 3.0,
+        "categoria": "frutas"
+    },
+    "Azucar": {
+        "descripcion": "azucar morena",
+        "precio": 1200.0,
+        "stock": 10.0,
+        "categoria": "dulces"
+    }
 }
-

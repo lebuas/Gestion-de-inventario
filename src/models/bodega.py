@@ -1,4 +1,4 @@
-from models import bd
+from src.models import bd
 
 
 class Bodega:

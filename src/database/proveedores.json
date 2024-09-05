@@ -1,9 +1,16 @@
 {
-
-      "Proveedor 1" : {
-            "direccion": "Dirección del Proveedor A",
-            "telefono": "123-456-7890",
-            "productos": ["producto1", "producto2"]
-        }
-    
+    "Proveedor 1": {
+        "direccion": "Direcci\u00f3n del Proveedor A",
+        "telefono": "123-456-7890",
+        "productos": [
+            "producto1",
+            "producto2"
+        ]
+    },
+    "Armando carnes": {
+        "direccion": "crea 26# 73.27",
+        "telefono": "3146255465",
+        "productos": []
+    }
+   
 }

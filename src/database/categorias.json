@@ -1,10 +1,12 @@
-
-{   
-  "categoria 1":
-   {
-      "descripcion":"placas madre asus"
-      "productos": ["b456","b567"]
-   }
-    
+{
+    "categoria 1": {
+        "descripcion": "placas madre asus",
+        "productos": []
+    },
+    "pescados": {
+        "descripcion": "pescados congelados",
+        "productos": [
+            "pargo"
+        ]
+    }
 }
-

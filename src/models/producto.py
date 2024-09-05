@@ -1,4 +1,4 @@
-from models import bd
+from src.models import bd
 
 
 class Producto:
@@ -19,7 +19,7 @@ class Producto:
             return True
         return False
 
-    def agrega_stock(self, nombre, nuevo_stock):
+    def agregar_stock(self, nombre, nuevo_stock):
         if nombre in self.productos:
             self.productos[nombre]["stock"] += nuevo_stock
             self.datos.actualizar_datos(self.productos)

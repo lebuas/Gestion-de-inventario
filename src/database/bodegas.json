@@ -1,7 +1,6 @@
-
 {
-   "bodega A" : {
-        "ubicacion": "Ubicación de la Bodega A",
+    "bodega A": {
+        "ubicacion": "Ubicaci\u00f3n de la Bodega A",
         "capacidad_maxima": 1000,
         "productos_almacenados": [
             {
@@ -14,21 +13,14 @@
             }
         ]
     },
-
-   "bodega A" : {
-        "ubicacion": "Ubicación de la Bodega A",
-        "capacidad_maxima": 1000,
+    "Bodega fernando": {
+        "ubicacion": "cra26",
+        "capacidad_maxima": 250,
         "productos_almacenados": [
             {
-                "nombre": "nombre2",
-                "cantidad": 100
-            },
-            {
-                "nombre": "nombre1",
-                "cantidad": 50
+                "nombre": "aguacate",
+                "cantidad": 3
             }
         ]
     }
-
 }
-

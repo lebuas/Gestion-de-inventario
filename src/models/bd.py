@@ -4,7 +4,8 @@ import os
 
 class ControlDatos:
     def __init__(self, name_archivo_json):
-        self.path_archivo_json = os.path.join('database', name_archivo_json)
+        self.path_archivo_json = os.path.join(
+            'src', 'database', name_archivo_json)
         self.diccionario_datos = {}
 
     def cargar_datos(self):
@@ -14,6 +15,6 @@ class ControlDatos:
         self.diccionario_datos = datos
         return self.diccionario_datos
 
-    def guardar_datos(self, diccionario_actualizado):
+    def actualizar_datos(self, diccionario_actualizado):
         with open(self.path_archivo_json, 'w') as file:
             json.dump(diccionario_actualizado, file, indent=4)
