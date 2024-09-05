@@ -1,3 +1,2 @@
 ent_virtual/
-requirements.txt/
-
+src/models/__pycache__/
