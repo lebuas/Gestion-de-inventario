@@ -22,5 +22,15 @@
                 "cantidad": 3
             }
         ]
+    },
+    "Bodega 23": {
+        "ubicacion": "cra 26",
+        "capacidad_maxima": 500,
+        "productos_almacenados": [
+            {
+                "nombre": "manzanas",
+                "cantidad": 30
+            }
+        ]
     }
 }
