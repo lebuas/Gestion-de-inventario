@@ -25,10 +25,11 @@ class InputCategorias:
             if self.instancia.agregar_producto(nombre_categoria, producto):
                 print("Producto agregado a la categoría con éxito.")
             else:
-                print("La categoría no existe o el producto ya está en la categoría.")
+                print("""La categoría no existe o el
+                producto ya está en la categoría.""")
         except Exception as e:
             print(
-                f"Ha ocurrido un error al agregar el producto a la categoría: {e}.")
+                f"Error al agregar el producto a la categoría: {e}.")
 
     def eliminar_producto_categoria(self):
         try:
@@ -38,10 +39,11 @@ class InputCategorias:
             if self.instancia.eliminar_producto(nombre_categoria, producto):
                 print("Producto eliminado de la categoría con éxito.")
             else:
-                print("La categoría no existe o el producto no está en la categoría.")
+                print("""La categoría no existe o el
+                producto no está en la categoría.""")
         except Exception as e:
             print(
-                f"Ha ocurrido un error al eliminar el producto de la categoría: {e}.")
+                f"Error al eliminar el producto de la categoría: {e}.")
 
     def consultar_categoria(self):
         try:

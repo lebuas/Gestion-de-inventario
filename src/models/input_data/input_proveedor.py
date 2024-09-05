@@ -28,12 +28,12 @@ class InputPorveedores:
                 print("Producto agregado al proveedor con éxito.")
             else:
                 print(
-                    "El proveedor no existe o el producto ya está en la \
-                                                      lista del proveedor.")
+                    "El proveedor no existe o",
+                    "el producto ya está en la lista del proveedor."
+                )
         except Exception as e:
             print(
-                f"Ha ocurrido un error al agregar el producto al \
-                                                            proveedor: {e}.")
+                f"Error al agregar el producto al proveedor: {e}.")
 
     def eliminar_producto_proveedor(self):
         try:
@@ -43,13 +43,13 @@ class InputPorveedores:
             if self.instancia.eliminar_producto(nombre_proveedor, producto):
                 print("Producto eliminado del proveedor con éxito.")
             else:
-                print("El proveedor no existe o el producto no está en la \
-                                                        lista del proveedor.")
+                print("El proveedor no existe o",
+                      "el producto no está en la lista del proveedor."
+                      )
 
         except Exception as e:
             print(
-                f"Ha ocurrido un error al eliminar el producto del \
-                                                        proveedor: {e}.")
+                f"Error al eliminar el producto del proveedor: {e}.")
 
     def consultar_proveedor(self):
 

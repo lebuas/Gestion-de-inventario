@@ -11,6 +11,12 @@
         "direccion": "crea 26# 73.27",
         "telefono": "3146255465",
         "productos": []
+    },
+    "Camilo carnes": {
+        "direccion": "cra 2",
+        "telefono": "4000423",
+        "productos": [
+            "lomo de cerdo"
+        ]
     }
-   
 }
