@@ -1,6 +1,6 @@
 {
     "Proveedor 1": {
-        "direccion": "Direcci\u00f3n del Proveedor A",
+        "direccion": "direccion del Proveedor A",
         "telefono": "123-456-7890",
         "productos": [
             "producto1",

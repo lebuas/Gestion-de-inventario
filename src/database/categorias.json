@@ -1,5 +1,6 @@
+
 {
-    "categoria 1": {
+    "categoria_1": {
         "descripcion": "placas madre asus",
         "productos": []
     },
@@ -9,10 +10,11 @@
             "pargo"
         ]
     },
-    "Dulces": {
-        "descripcion": "Endulsantes",
+    "dulces": {
+        "descripcion": "endulzantes",
         "productos": [
             "confites"
         ]
     }
 }
+

@@ -1,6 +1,6 @@
 {
-    "bodega A": {
-        "ubicacion": "Ubicaci\u00f3n de la Bodega A",
+    "bodega_A": {
+        "ubicacion": "Ubicación de la Bodega A",
         "capacidad_maxima": 1000,
         "productos_almacenados": [
             {
@@ -13,8 +13,8 @@
             }
         ]
     },
-    "Bodega fernando": {
-        "ubicacion": "cra26",
+    "bodega_fernando": {
+        "ubicacion": "Cra 26",
         "capacidad_maxima": 250,
         "productos_almacenados": [
             {
@@ -23,8 +23,8 @@
             }
         ]
     },
-    "Bodega 23": {
-        "ubicacion": "cra 26",
+    "bodega_23": {
+        "ubicacion": "Cra 26",
         "capacidad_maxima": 500,
         "productos_almacenados": [
             {
